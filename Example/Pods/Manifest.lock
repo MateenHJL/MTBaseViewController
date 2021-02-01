@@ -1,0 +1,27 @@
+PODS:
+  - BaseViewController (1.0.0):
+    - IQKeyboardManager
+    - WZLBadge
+  - IQKeyboardManager (6.5.6)
+  - WZLBadge (1.2.6)
+
+DEPENDENCIES:
+  - BaseViewController (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManager
+    - WZLBadge
+
+EXTERNAL SOURCES:
+  BaseViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BaseViewController: ce7021adfca996d1a57a1e060f6a6f4e2c4a1c3d
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  WZLBadge: 9ec779dcfd94c825518b395e8315fccaabff1bfa
+
+PODFILE CHECKSUM: ab7c04f40bca959d316c16b4dbb722e1f466738b
+
+COCOAPODS: 1.10.1
