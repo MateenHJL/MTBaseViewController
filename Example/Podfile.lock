@@ -1,5 +1,5 @@
 PODS:
-  - BaseViewController (1.0.0):
+  - BaseViewController (1.0.3):
     - IQKeyboardManager
     - WZLBadge
   - IQKeyboardManager (6.5.6)
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BaseViewController: ce7021adfca996d1a57a1e060f6a6f4e2c4a1c3d
+  BaseViewController: bef8f01fe31f7591f8eb45109678246341b37bd0
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
   WZLBadge: 9ec779dcfd94c825518b395e8315fccaabff1bfa
 
