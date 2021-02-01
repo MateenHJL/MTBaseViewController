@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'BaseViewController_Example' do
+  pod 'BaseViewController', :path => '../'
+
+  target 'BaseViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
