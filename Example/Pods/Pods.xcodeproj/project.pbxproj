@@ -141,7 +141,7 @@
 		0B1B30A309528E92D6625832A01CF3C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		0CE226413AA6A1358446F6CA0DAA4A43 /* WZLBadgeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WZLBadgeProtocol.h; path = WZLBadge/Protocol/WZLBadgeProtocol.h; sourceTree = "<group>"; };
 		0D6D0BB7252A6EF18A6EA67FD1EC095A /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
-		0E05C836B37D8A6513078AEBB4A4D40C /* Pods_BaseViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BaseViewController_Tests.framework; path = "Pods-BaseViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E05C836B37D8A6513078AEBB4A4D40C /* Pods_BaseViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F6B11C0BE2F5D465D59F10D6D471EDF /* UIView+WZLBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WZLBadge.h"; path = "WZLBadge/View/UIView+WZLBadge.h"; sourceTree = "<group>"; };
 		0FB37E3E914C0883ED4F24948B720605 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
 		111B014C1A9D2ED85C9070991657ECCF /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 		1B250B26E678C4CAB278244382330B27 /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
 		1BA805F8575661ADE96946E594EDEE86 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
 		23554C5C231F575C7F57782EE44DF8BE /* BaseViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BaseViewController.modulemap; sourceTree = "<group>"; };
-		296F04133C696791CA3F5C0071D5ADC2 /* BaseViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BaseViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		296F04133C696791CA3F5C0071D5ADC2 /* BaseViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BaseViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		29C9D6009D2824F0839B1889EB3246BC /* BaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		2A08D219827D066B870F75CA0CD23597 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIScrollView+Additions.m"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
 		3006684E5214CDE3872BD73ECE4FC501 /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQPreviousNextView.h; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.h; sourceTree = "<group>"; };
@@ -204,24 +204,24 @@
 		95E263848D680271DDB4722B73B250C6 /* BaseTabbarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BaseTabbarItem.h; sourceTree = "<group>"; };
 		96E8D83C3C24D55957ACF02274C3361C /* CAAnimation+WAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+WAnimation.m"; path = "WZLBadge/CategorySupport/CAAnimation+WAnimation.m"; sourceTree = "<group>"; };
 		97649BE29E5321A6EA946F48563CE7AF /* Pods-BaseViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BaseViewController_Tests.modulemap"; sourceTree = "<group>"; };
-		98527D7196957AAB07B79E2E2AFDE23E /* IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManager.framework; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98527D7196957AAB07B79E2E2AFDE23E /* IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA0DEB115C312C84FB583A25F31D47C /* BaseNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		9B8EB8EF73C43E3E72D50016D8D5B044 /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A86F85B30144DC27B06040237A84FA7A /* UIBarButtonItem+WZLBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+WZLBadge.h"; path = "WZLBadge/BarItem/UIBarButtonItem+WZLBadge.h"; sourceTree = "<group>"; };
 		AA4CE955D0CE9FAF3E2BDA1FE475245E /* IQKeyboardManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-umbrella.h"; sourceTree = "<group>"; };
 		AD3D8425AF9BDA53E656769C6B5AC5FF /* WZLBadgeImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WZLBadgeImport.h; path = WZLBadge/WZLBadgeImport.h; sourceTree = "<group>"; };
 		AFAA6CA5CC250682C0B71C55A25D631B /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
 		B11CF4F6878381D6F54A8C192905A41F /* Pods-BaseViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BaseViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B70174D970917DFEB2390694711EE809 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		B79B0691556B8BBA264ACB2CDE847D9F /* BaseViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BaseViewController.framework; path = BaseViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70174D970917DFEB2390694711EE809 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B79B0691556B8BBA264ACB2CDE847D9F /* BaseViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BaseViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D4DE4B7E52FB33C11B80313028C5B3 /* ButtonViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ButtonViewModel.m; sourceTree = "<group>"; };
 		B9199F2E82144352046065D213EEE332 /* WZLBadge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WZLBadge-dummy.m"; sourceTree = "<group>"; };
-		B96AAC6D9D21D764687DC191B80862E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B96AAC6D9D21D764687DC191B80862E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B9EA2FB433257DB808E987F61EDFE3D8 /* BaseViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaseViewController.release.xcconfig; sourceTree = "<group>"; };
 		BBB9520577D9A4030F55F0CD6D3DAB3A /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
 		BBBC4BC2352B4DD0196C4E5F4EC0002B /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyboardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
-		BFCDE2D4905311B7E7754486D2207931 /* WZLBadge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WZLBadge.framework; path = WZLBadge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCDE2D4905311B7E7754486D2207931 /* WZLBadge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WZLBadge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2CC417ABB7AA42C77E69273DAA28085 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
 		C3439CBC63ECDF65372CF5D3C6F8D8A5 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
 		C778AD393F332D80A095A448906DC2E1 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
@@ -229,7 +229,7 @@
 		CB6AD912F536EE607C14A73E38B541F9 /* WZLBadge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WZLBadge-Info.plist"; sourceTree = "<group>"; };
 		CC404C651E43186CA6952AD25C77F6BB /* BaseViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BaseViewController-dummy.m"; sourceTree = "<group>"; };
 		D0803D6C5EDFE07C033A3E2EF7412E08 /* BaseViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaseViewController-prefix.pch"; sourceTree = "<group>"; };
-		D6C09BCD58D7860472810D7430F036A0 /* Pods_BaseViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BaseViewController_Example.framework; path = "Pods-BaseViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C09BCD58D7860472810D7430F036A0 /* Pods_BaseViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D836919037505B9D957E0CF4A80D36 /* BaseViewControllerConfigManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BaseViewControllerConfigManager.m; sourceTree = "<group>"; };
 		D9ADA8D82F3E333B8FB481913439A7CB /* CAAnimation+WAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+WAnimation.h"; path = "WZLBadge/CategorySupport/CAAnimation+WAnimation.h"; sourceTree = "<group>"; };
 		DC0FBF51A69A4C388B7BCD83CDAB4F85 /* BaseTabbarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BaseTabbarItem.m; sourceTree = "<group>"; };
@@ -378,7 +378,6 @@
 				0CE226413AA6A1358446F6CA0DAA4A43 /* WZLBadgeProtocol.h */,
 				287E856A9F95F9AEB6BB74D6BF1233EA /* Support Files */,
 			);
-			name = WZLBadge;
 			path = WZLBadge;
 			sourceTree = "<group>";
 		};
@@ -476,7 +475,6 @@
 				C2CC417ABB7AA42C77E69273DAA28085 /* IQUIViewController+Additions.m */,
 				CF0F81DC5C5D84E2721FF231F867172F /* Support Files */,
 			);
-			name = IQKeyboardManager;
 			path = IQKeyboardManager;
 			sourceTree = "<group>";
 		};
@@ -554,7 +552,6 @@
 				068E9FBB946C28CF0F5F8886B1D0CFEB /* XLJSHandler.h */,
 				37C719854298D1512C532799CD62AAB6 /* XLJSHandler.m */,
 			);
-			name = JSHandle;
 			path = JSHandle;
 			sourceTree = "<group>";
 		};
@@ -1409,8 +1406,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
