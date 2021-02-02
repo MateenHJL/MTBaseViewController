@@ -85,5 +85,7 @@
 //the current systemVersion is iOS 11.0 or not
 #define IOS11_OR_LATER ([[UIDevice currentDevice].systemVersion intValue] >= 11)
 
+//blockcycle
+#define MTWeakBlock(type)  __weak typeof(type) weak##type = type;
 
 #endif /* Macro_h */
