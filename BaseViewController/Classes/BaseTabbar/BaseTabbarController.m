@@ -52,8 +52,7 @@
         for (int i = 0; i < modelArray.count;i++)
         {
             BaseTabbarItem *item = [modelArray objectAtIndex:i];
-            Class class = NSClassFromString(item.rootControllerName);
-            BaseNavigationController *rootController = [[BaseNavigationController alloc]initWithRootViewController:[[class alloc]init]];
+            BaseNavigationController *rootController = [[BaseNavigationController alloc]initWithRootViewController:item.classInstanceType];
             rootController.tabBarItem.image = [item.normalImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
             rootController.tabBarItem.selectedImage = [item.selectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
             rootController.tabBarItem.title = item.normalTitle;
