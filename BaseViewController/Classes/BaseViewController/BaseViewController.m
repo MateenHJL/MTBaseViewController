@@ -14,6 +14,8 @@
 
 @interface BaseViewController ()
 
+@property (nonatomic, strong  ) UIView *statusBarView;
+
 @end
 
 @implementation BaseViewController
@@ -91,9 +93,12 @@
 {
     if (@available(iOS 13.0, *))
     {
-        UIView *view = [[UIView alloc] initWithFrame:[UIApplication sharedApplication].statusBarFrame];
-        view.backgroundColor = statusBarBackgroundColor;
-        [[UIApplication sharedApplication].keyWindow addSubview:view];
+        if (!self.statusBarView)
+        {
+            self.statusBarView = [[UIView alloc] initWithFrame:[UIApplication sharedApplication].statusBarFrame];
+            [[UIApplication sharedApplication].keyWindow addSubview:self.statusBarView];
+        }
+        self.statusBarView.backgroundColor = statusBarBackgroundColor;
     }
     else
     {
