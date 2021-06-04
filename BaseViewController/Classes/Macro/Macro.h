@@ -22,7 +22,7 @@
 #define kNavigationTopSpace ((kIPhoneX || kIPhoneXR || kIPhoneXS || kIPhoneXSMax || kIphone12Mini || kIphone12Pro || kIphone12ProMax) ? 24 : 0)
 
 //bottomSafetySpaceHeight
-#define kIphoneXBottomSpace ((kIPhoneX || kIPhoneXR || kIPhoneXS || kIPhoneXSMax || kIphone12Mini || kIphone12Pro || kIphone12ProMax || kIsIpad) ? 34 : 0)
+#define kIphoneXBottomSpace (((kIPhoneX || kIPhoneXR || kIPhoneXS || kIPhoneXSMax || kIphone12Mini || kIphone12Pro || kIphone12ProMax) || (IS_IPAD && [self kIsBottomViewSafeView])) ? 34 : 0)
 
 //StatusBarHeight + navigationBarHeight
 #define kNavigationHeight (kIsIPHONE ? ((kIPhoneX || kIPhoneXR || kIPhoneXS || kIPhoneXSMax || kIphone12Mini || kIphone12Pro || kIphone12ProMax) ? 88 : 64) : 70)
