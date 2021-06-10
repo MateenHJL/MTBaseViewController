@@ -16,7 +16,7 @@
 #define kNavigationBarHeight (kIsIPHONE ? ((kIPhoneX || kIPhoneXR || kIPhoneXS || kIPhoneXSMax || kIphone12Mini || kIphone12Pro || kIphone12ProMax) ? 68 : 44): 50)
 
 //statusBar height
-#define kStatusBarHeight 20
+#define kStatusBarHeight ([self kOriginStatsuBarHeight])
 
 //navigationSafetySpaceHeight
 #define kNavigationTopSpace ((kIPhoneX || kIPhoneXR || kIPhoneXS || kIPhoneXSMax || kIphone12Mini || kIphone12Pro || kIphone12ProMax) ? 24 : 0)
@@ -28,7 +28,7 @@
 #define kNavigationHeight (kIsIPHONE ? ((kIPhoneX || kIPhoneXR || kIPhoneXS || kIPhoneXSMax || kIphone12Mini || kIphone12Pro || kIphone12ProMax) ? 88 : 64) : 70)
 
 //tabbar高度
-#define kTabbarHeight ((kIPhoneX || kIPhoneXR || kIPhoneXS || kIPhoneXSMax || kIphone12Mini || kIphone12Pro || kIphone12ProMax) ? 83 : 49)
+#define kTabbarHeight ([self kOriginTabbarHeight])
 
 //is iphone?
 #define kIsIPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
