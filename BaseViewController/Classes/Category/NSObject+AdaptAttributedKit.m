@@ -61,4 +61,25 @@
     return 0.0;
 }
 
+- (CGFloat)kSafetyTopSpace
+{
+    if (@available(iOS 11.0, *))
+    {
+        return [UIApplication sharedApplication].delegate.window.safeAreaInsets.top;
+    }
+    else
+    {
+        return 0.0;
+    }
+}
+
+- (CGFloat)kSafetyBottomSpace
+{
+    if (@available(iOS 11.0, *))
+    {
+        return [UIApplication sharedApplication].delegate.window.safeAreaInsets.bottom;
+    }
+    return 0.0;
+}
+
 @end

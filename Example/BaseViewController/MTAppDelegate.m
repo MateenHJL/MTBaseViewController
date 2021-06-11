@@ -7,12 +7,15 @@
 //
 
 #import "MTAppDelegate.h"
+#import <BaseViewController/Macro.h>
+#import <BaseViewController/NSObject+AdaptAttributedKit.h>
 
 @implementation MTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSLog(@"asdasdsadas=====%f-----%f",kNavigationTopSpace,kIphoneXBottomSpace);
     return YES;
 }
 

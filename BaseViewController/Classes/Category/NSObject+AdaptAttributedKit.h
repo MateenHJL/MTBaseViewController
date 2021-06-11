@@ -14,6 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (BOOL)kIsBottomViewSafeView;
 
+- (CGFloat)kSafetyTopSpace;
+
+- (CGFloat)kSafetyBottomSpace;
+
 - (CGFloat)kOriginStatsuBarHeight;
 
 - (CGFloat)kOriginTabbarHeight;
