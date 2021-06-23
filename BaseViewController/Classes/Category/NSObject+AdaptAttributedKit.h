@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (BOOL)kIsBottomViewSafeView;
 
+- (CGFloat)kOriginNavigationHeight;
+
 - (CGFloat)kSafetyTopSpace;
 
 - (CGFloat)kSafetyBottomSpace;

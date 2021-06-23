@@ -9,6 +9,7 @@
 #import "BaseWebviewController.h"
 #import "XLJSHandler.h"
 #import <BaseViewController/Macro.h>
+#import <BaseViewController/NSObject+AdaptAttributedKit.h>
 
 @interface BaseWebviewController () <WKNavigationDelegate,WKScriptMessageHandler,WKUIDelegate>
 

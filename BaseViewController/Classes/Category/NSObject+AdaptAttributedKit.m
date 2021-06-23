@@ -82,4 +82,9 @@
     return 0.0;
 }
 
+- (CGFloat)kOriginNavigationHeight
+{
+    return kNavigationBarHeight + [self kOriginStatsuBarHeight];
+}
+
 @end
