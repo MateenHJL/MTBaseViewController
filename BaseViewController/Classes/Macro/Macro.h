@@ -24,7 +24,7 @@
 //bottomSafetySpaceHeight
 #define kIphoneXBottomSpace ([self kSafetyBottomSpace])
 
-//StatusBarHeight + navigationBarHeight
+//navigationHeight
 #define kNavigationHeight ([self kOriginNavigationHeight])
 
 //tabbar高度
