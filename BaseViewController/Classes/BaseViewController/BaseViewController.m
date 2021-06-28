@@ -97,7 +97,7 @@
         {
             self.statusBarView = [[UIView alloc] initWithFrame:[UIApplication sharedApplication].statusBarFrame];
             [[UIApplication sharedApplication].keyWindow addSubview:self.statusBarView];
-            [[UIApplication sharedApplication].keyWindow sendSubviewToBack:self.statusBarView];
+//            [[UIApplication sharedApplication].keyWindow sendSubviewToBack:self.statusBarView];
         }
         self.statusBarView.backgroundColor = statusBarBackgroundColor;
     }
