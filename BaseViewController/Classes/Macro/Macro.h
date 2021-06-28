@@ -13,7 +13,7 @@
 #define  yScreenHeight  [UIScreen mainScreen].bounds.size.height
 
 //navigationBar height
-#define kNavigationBarHeight (kIsIPHONE ? ((kIPhoneX || kIPhoneXR || kIPhoneXS || kIPhoneXSMax || kIphone12Mini || kIphone12Pro || kIphone12ProMax) ? 68 : 44): 50)
+#define kNavigationBarHeight ([self kOriginNavigationBarHeight])
 
 //statusBar height
 #define kStatusBarHeight ([self kOriginStatsuBarHeight])
