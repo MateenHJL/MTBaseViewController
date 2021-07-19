@@ -80,7 +80,7 @@
     {
         UIWindow *keyWindow = [[[UIApplication sharedApplication] delegate] window];
         CGFloat bottomSafeInset = keyWindow.safeAreaInsets.bottom;
-        if (bottomSafeInset == 34.0f || bottomSafeInset == 21.0f)
+        if (bottomSafeInset == 34.0f || bottomSafeInset == 21.0f || bottomSafeInset == 20.0f)
         {
             return YES;
         }
