@@ -106,7 +106,13 @@
 
 - (void)setupTabbarData
 {
- 
+    if (@available(iOS 15.0, *))
+    {
+        UITabBarAppearance * appearance = [UITabBarAppearance new];
+        appearance.backgroundColor = [UIColor whiteColor];
+        self.tabBar.scrollEdgeAppearance = appearance;
+        self.tabBar.standardAppearance = appearance;
+    }
 }
 
 - (void)viewWillAppear:(BOOL)animated
