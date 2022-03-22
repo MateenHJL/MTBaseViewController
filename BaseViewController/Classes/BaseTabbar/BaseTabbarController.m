@@ -109,7 +109,11 @@
     if (@available(iOS 15.0, *))
     {
         UITabBarAppearance * appearance = [UITabBarAppearance new];
+        UITabBarItemAppearance *item = [UITabBarItemAppearance new];
         appearance.backgroundColor = [UIColor whiteColor];
+        item.normal.titleTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:[BaseViewControllerConfigManager shareHttpConfigManager].config.tabbarNormalTextColor,NSForegroundColorAttributeName,[BaseViewControllerConfigManager shareHttpConfigManager].config.tabbarNormalFont,NSFontAttributeName,nil];
+        item.selected.titleTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:[BaseViewControllerConfigManager shareHttpConfigManager].config.tabbarSelectTextColor,NSForegroundColorAttributeName,[BaseViewControllerConfigManager shareHttpConfigManager].config.tabbarSelectFont,NSFontAttributeName,nil];
+        appearance.stackedLayoutAppearance = item;
         self.tabBar.scrollEdgeAppearance = appearance;
         self.tabBar.standardAppearance = appearance;
     }
