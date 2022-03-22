@@ -11,7 +11,7 @@
 
 @interface BaseTabbarItem : NSObject
 
-@property (nonatomic,strong) id classInstanceType;
+@property (nonatomic,copy  ) NSString *rootControllerName;
 @property (nonatomic,strong) UIImage  *normalImage;
 @property (nonatomic,strong) UIImage  *selectedImage;
 @property (nonatomic,copy  ) NSString *normalTitle;
