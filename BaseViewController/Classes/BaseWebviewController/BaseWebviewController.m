@@ -55,8 +55,6 @@
 {
     WKWebViewConfiguration * configuration = [[WKWebViewConfiguration alloc]init];
     configuration.preferences.javaScriptEnabled = YES;//打开js交互
-    [configuration.userContentController addScriptMessageHandler:self name:@"click"];
-    [configuration.userContentController addScriptMessageHandler:self name:@"callAndroid"];
     
     _webConfiguration = configuration;
     _jsHandler = [[XLJSHandler alloc]initWithViewController:self configuration:configuration];
