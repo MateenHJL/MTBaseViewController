@@ -11,6 +11,7 @@
 #import <IQKeyboardManager/IQKeyboardManager.h>
 #import "BaseViewControllerProtocol.h"
 #import "ButtonViewModel.h"
+#import "UIWindow+AttachmentData.h"
 
 @interface BaseViewController ()
 
@@ -93,10 +94,12 @@
 {
     if (@available(iOS 13.0, *))
     {
-        if (!self.statusBarView)
+        UIWindow *window = [UIApplication sharedApplication].keyWindow;
+        if (!self.statusBarView && !window.hasStatusBar)
         {
             self.statusBarView = [[UIView alloc] initWithFrame:[UIApplication sharedApplication].statusBarFrame];
-            [[UIApplication sharedApplication].keyWindow addSubview:self.statusBarView];
+            [[UIApplication sharedApplication].keyWindow insertSubview:self.statusBarView atIndex:0];
+            [UIApplication sharedApplication].keyWindow.hasStatusBar = YES;
 //            [[UIApplication sharedApplication].keyWindow sendSubviewToBack:self.statusBarView];
         }
         self.statusBarView.backgroundColor = statusBarBackgroundColor;

@@ -16,6 +16,8 @@
 		145E8C98B7D5372FAC78A746DD07DBE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AD8ABB5E34A0787F4E76955FDCD2C2 /* UIKit.framework */; };
 		18388C4E7D64ECE9812E7B0E3D6BA4A7 /* CAAnimation+WAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D9ADA8D82F3E333B8FB481913439A7CB /* CAAnimation+WAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18462A714D2D8FA924481397C1F4D4FF /* BaseWebviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4584D5885F695DFF3F3FE8572F0BA727 /* BaseWebviewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1896CEB62959A0D6005ED9CC /* UIWindow+AttachmentData.h in Headers */ = {isa = PBXBuildFile; fileRef = 1896CEB42959A0D6005ED9CC /* UIWindow+AttachmentData.h */; };
+		1896CEB72959A0D6005ED9CC /* UIWindow+AttachmentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1896CEB52959A0D6005ED9CC /* UIWindow+AttachmentData.m */; };
 		1901E7047E775104E3D0E98B590272F7 /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C3439CBC63ECDF65372CF5D3C6F8D8A5 /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C21BED4A169309FDF5132E0577B5785 /* IQKeyboardManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4CE955D0CE9FAF3E2BDA1FE475245E /* IQKeyboardManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1CC9D51CEF553015FF884867B21D1C7E /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBC4BC2352B4DD0196C4E5F4EC0002B /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -148,6 +150,8 @@
 		0FB37E3E914C0883ED4F24948B720605 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
 		111B014C1A9D2ED85C9070991657ECCF /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
 		1541BDE7A30A3F5B22419C77A959BF69 /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyboardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
+		1896CEB42959A0D6005ED9CC /* UIWindow+AttachmentData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWindow+AttachmentData.h"; sourceTree = "<group>"; };
+		1896CEB52959A0D6005ED9CC /* UIWindow+AttachmentData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+AttachmentData.m"; sourceTree = "<group>"; };
 		193E9FA6CF0B972C3C5F29E89880CDA2 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
 		1A97638E762255D632AAE53960EC8A29 /* UITabBarItem+WZLBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+WZLBadge.m"; path = "WZLBadge/BarItem/UITabBarItem+WZLBadge.m"; sourceTree = "<group>"; };
 		1B250B26E678C4CAB278244382330B27 /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
@@ -308,6 +312,8 @@
 				7CB1CCDF267313490062E57A /* NSObject+AdaptAttributedKit.m */,
 				61C7BDE87E05C4F82659C69DA11601F9 /* UIView+Frame.h */,
 				79F249EC0BD529E61559D7FFEB9D2B14 /* UIView+Frame.m */,
+				1896CEB42959A0D6005ED9CC /* UIWindow+AttachmentData.h */,
+				1896CEB52959A0D6005ED9CC /* UIWindow+AttachmentData.m */,
 			);
 			name = Category;
 			path = BaseViewController/Classes/Category;
@@ -691,6 +697,7 @@
 				A9DE37BE52E2306C5FC98D66D7CE3EE8 /* BaseTabbarItem.h in Headers */,
 				A6BE80526DF6C30AE938C92017FAEA2A /* BaseViewController-umbrella.h in Headers */,
 				84FF3D67894AD5B23FD639FD67C09FE8 /* BaseViewController.h in Headers */,
+				1896CEB62959A0D6005ED9CC /* UIWindow+AttachmentData.h in Headers */,
 				D489963FA56F91AD0A2D32941F992B5F /* BaseViewControllerConfigManager.h in Headers */,
 				28B877F97D39989E80906CDAD544B87B /* BaseViewControllerProtocol.h in Headers */,
 				18462A714D2D8FA924481397C1F4D4FF /* BaseWebviewController.h in Headers */,
@@ -924,6 +931,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1896CEB72959A0D6005ED9CC /* UIWindow+AttachmentData.m in Sources */,
 				21E0367C71AF3CE0952BAD4E7E5B7AEB /* BaseNavigationController.m in Sources */,
 				AF1578818886B71D16D7150B1E389672 /* BaseTabbarController.m in Sources */,
 				0E6C8FDF889D313F608081DA4F4258BD /* BaseTabbarItem.m in Sources */,
