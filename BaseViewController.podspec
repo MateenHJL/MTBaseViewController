@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BaseViewController'
-  s.version          = '1.1.8'
+  s.version          = '1.2.0'
   s.summary          = 'A short description of BaseViewController.'
 
 # This description is used to generate tags and improve search results.
@@ -27,27 +27,16 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/MateenHJL/MTBaseViewController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'BaseViewController/Classes/**/*'
+  
+  s.public_header_files = 'Pod/Classes/**/*.h'
   
   s.dependency 'IQKeyboardManager'
   s.dependency 'WZLBadge'
   
-  s.pod_target_xcconfig = {
-        'VALID_ARCHS' => 'x86_64 armv7 arm64'
-  }
-  
-  s.public_header_files = 'Pod/Classes/**/*.h'
-#
-#  s.static_framework = true
-#  s.requires_arc = true
-  
-  # s.resource_bundles = {
-  #   'BaseViewController' => ['BaseViewController/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.static_framework = true
+  s.requires_arc = true
+   
 end
