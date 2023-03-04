@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BaseViewController'
-  s.version          = '1.3.2'
+  s.version          = '1.3.4'
   s.summary          = 'A short description of BaseViewController.'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/MateenHJL/MTBaseViewController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'BaseViewController/Classes/**/*'
   
