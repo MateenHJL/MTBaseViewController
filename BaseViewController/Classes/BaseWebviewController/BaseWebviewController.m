@@ -39,6 +39,20 @@
     }
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    [self.webView addObserver:self forKeyPath:@"estimatedProgress" options:NSKeyValueObservingOptionNew context:nil];
+}
+
+-(void)viewDidDisappear:(BOOL)animated
+{
+    [super viewDidDisappear:animated];
+    
+    [self.webView removeObserver:self forKeyPath:@"estimatedProgress"];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initWKWebView];
@@ -56,9 +70,7 @@
 {
     WKWebViewConfiguration * configuration = [[WKWebViewConfiguration alloc]init];
     configuration.preferences.javaScriptEnabled = YES;//打开js交互
-    [configuration.userContentController addScriptMessageHandler:self name:@"click"];
-    [configuration.userContentController addScriptMessageHandler:self name:@"callAndroid"];
-    
+
     _webConfiguration = configuration;
     _jsHandler = [[XLJSHandler alloc]initWithViewController:self configuration:configuration];
     
@@ -73,8 +85,6 @@
     self.webView.backgroundColor = [UIColor clearColor];
     self.webView.allowsBackForwardNavigationGestures =YES;//打开网页间的 滑动返回
     self.webView.scrollView.decelerationRate = UIScrollViewDecelerationRateNormal;
-    //监控进度
-    [self.webView addObserver:self forKeyPath:@"estimatedProgress" options:NSKeyValueObservingOptionNew context:nil];
     [self.view addSubview:self.webView];
     
     //进度条
@@ -250,7 +260,6 @@
 -(void)dealloc {
     [_jsHandler cancelHandler];
     self.webView.navigationDelegate = nil;
-    [_webView removeObserver:self forKeyPath:@"estimatedProgress"];
 }
 /*
 #pragma mark - Navigation

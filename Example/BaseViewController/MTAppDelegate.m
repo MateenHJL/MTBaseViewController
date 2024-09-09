@@ -9,13 +9,17 @@
 #import "MTAppDelegate.h"
 #import <BaseViewController/Macro.h>
 #import <BaseViewController/NSObject+AdaptAttributedKit.h>
+#import "MTViewController.h"
 
 @implementation MTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    NSLog(@"asdasdsadas=====%f-----%f",kNavigationTopSpace,kIphoneXBottomSpace);
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    MTViewController *viewController = [[UINavigationController alloc] initWithRootViewController:[[MTViewController alloc] init]];
+    self.window.rootViewController = viewController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
